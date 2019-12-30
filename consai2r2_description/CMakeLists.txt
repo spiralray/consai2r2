@@ -50,6 +50,7 @@ install(DIRECTORY
 
 install(DIRECTORY
   include
+  DESTINATION .
 )
 
 ament_export_include_directories(include)
