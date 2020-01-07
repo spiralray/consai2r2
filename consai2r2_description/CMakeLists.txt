@@ -13,7 +13,6 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
-find_package(python_cmake_module REQUIRED)
 
 set(_PYTHON_EXECUTABLE "${PYTHON_EXECUTABLE}")
 
@@ -30,7 +29,6 @@ add_executable(${PROJECT_NAME}_node
 ament_target_dependencies(
   ${PROJECT_NAME}_node
   "rclcpp"
-  "launch_ros"
 )
 
 
