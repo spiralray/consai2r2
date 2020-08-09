@@ -35,6 +35,7 @@ set(msg_files
   "msg/ReplaceBall.msg"
   "msg/RobotCommand.msg"
   "msg/RobotCommands.msg"
+  "msg/RobotStatus.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
